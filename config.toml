@@ -1,5 +1,5 @@
-base_url = "https://fdtv.me"
-title = "fdtv.me"
+base_url = "https://lexfn.me"
+title = "lexfn.me"
 compile_sass = true
 build_search_index = true
 generate_feeds = true
