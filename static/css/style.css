@@ -1,3 +1,11 @@
+@font-face {
+  font-display: swap;
+  font-family: 'M PLUS Rounded 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../m-plus-rounded-1c-v20-cyrillic_latin-regular.woff2') format('woff2');
+}
+
 :root {
   --bg-color: white;
   --fg-color: black;
@@ -19,7 +27,10 @@
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 14px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
   scrollbar-color: var(--accent-color) var(--bg-color);
   scrollbar-width: thin;
 }
@@ -33,7 +44,6 @@ header {
 }
 
 body {
-  font-family: monospace;
   line-height: 1.7;
   max-width: 640px;
   margin: auto;
@@ -124,6 +134,7 @@ pre {
   padding: 1rem;
   overflow-x: auto;
   font-style: monospace;
+  font-size: 0.9rem;
   white-space: pre-wrap; 
   word-break: break-word;
 }
