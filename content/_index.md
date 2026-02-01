@@ -1,10 +1,10 @@
 +++
-title = "Home"
+title = "About"
 +++
 
-# Hello there!
+# whois
 
-I am Aleksey Fedotov, a full-time software engineer and a hobbyist game developer. Thanks for stopping by.
+I am Aleksey Fedotov, a full-time software engineer and a hobbyist game developer.
 
 I currently work as a backend engineer designing and supporting Node.js services written in TypeScript and running on AWS.
 When not coding I write documentation, plan work via JIRA tickets, or participate in totally useful meetings.
@@ -12,7 +12,7 @@ When not coding I write documentation, plan work via JIRA tickets, or participat
 In the past I used to develop .NET/C# backend services and frontend React apps, sometimes also touching Python and C.
 In my personal projects I lean towards C++ and Rust.
 
-You can find me online at these spots:
+## Online at
 
 <span class="social-link-btn">{{ icon(class="fa-brands fa-linkedin fa-xl") }} [LinkedIn](https://www.linkedin.com/in/fdtv/)</span>
 <span class="social-link-btn">{{ icon(class="fa-brands fa-github-square fa-xl") }} [Github](https://github.com/lexfn)</span>

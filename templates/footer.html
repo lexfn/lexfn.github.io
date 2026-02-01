@@ -1,15 +1,15 @@
 <hr>
 <div class="foot-container">
-    <div class="footLeft">
+    <div>
         <p>
             © {{ now() | date(format="%Y") }} Aleksey Fedotov <br>
             Built with <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a> using
             modified <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a>
-            theme and no AI.
+            theme without AI.
         </p>
     </div>
     {% if config.generate_feed %}
-    <div class="footRight">
+    <div>
         <a class="icons__background" target="_blank" rel="noopener noreferrer"
             href="{{ get_url(path='atom.xml', trailing_slash=false) }}" title="Subscribe via RSS for updates.">
             <i class="fa-solid fa-square-rss fa-xl"></i>

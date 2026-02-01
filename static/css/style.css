@@ -1,6 +1,6 @@
 :root {
   --bg-color: white;
-  --fg-color: #41474E;
+  --fg-color: black;
   --meta-color: #96b1c0;
   --accent-color: #3b647a;
   --dimmed-color: #b3b3b3;
@@ -28,6 +28,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   margin-top: 1em;
 }
 
@@ -194,7 +195,6 @@ textarea {
   min-height: 100svh;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  gap: 1rem;
 }
 
 .icons {
