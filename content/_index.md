@@ -2,15 +2,15 @@
 title = "Home"
 +++
 
-# whois
+# /home/alex
 
 I am Aleksey Fedotov, a full-time software engineer and a hobbyist game developer.
 
-I currently work as a backend engineer designing and supporting Node.js services written in TypeScript and running on AWS.
-When not coding I write documentation, plan work via JIRA tickets, or participate in totally useful meetings.
+At my current job I work on Node.js services written in TypeScript and running on AWS.
+Outside of coding I write documentation, plan work via JIRA tickets, or participate in totally useful meetings.
 
-In the past I used to develop .NET/C# backend services and frontend React apps, sometimes also touching Python and C.
-In my personal projects I lean towards C++ and Rust.
+My past experience includes developing .NET/C#/Python services and frontend React apps.
+In my personal projects I try to use Rust and C++.
 
 ## Online at
 
