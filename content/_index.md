@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "Home"
 +++
 
 # whois
@@ -20,9 +20,7 @@ In my personal projects I lean towards C++ and Rust.
 <span class="social-link-btn">{{ icon(class="fa-brands fa-facebook-square fa-xl") }} [Facebook](https://facebook.com/lexfdv)</span>
 <span class="social-link-btn">{{ icon(class="fa-brands fa-vk fa-xl")}} [VK](https://vk.com/lexfv)</span>
 
-## Projects
-
-I sometimes code in in my spare time, here are some of the projects:
+## Side projects
 
 - [Solo](https://github.com/lexfn/solo), a simple game engine with OpenGL/Vulkan backend, Bullet physics and Lua scripting.
   More or less just a playground for my gamedev experiments.
@@ -33,7 +31,7 @@ I sometimes code in in my spare time, here are some of the projects:
   Hopelessly outdated at this point.
 - [More on Github](https://github.com/lexfn).
 
-I love indie gamedev and occasionally mess around with some ideas. That's how these games came to be:
+I like indie gamedev and occasionally mess around with some ideas. That's how these games came to be:
 
 [Not so Flat](/nsf) • [Cubic Roll](/cubic-roll) • [Line Bound](/line-bound) • [Uncopy](/uncopy) • [Ре:бусы](/rebus)
 
