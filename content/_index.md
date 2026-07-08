@@ -4,12 +4,12 @@ title = "Home"
 
 # /home/alex
 
-I am Aleksey Fedotov, a full-time software engineer and a hobbyist game developer.
+Hi, I'm Aleksey. A full-time software engineer and a hobbyist game developer.
 
 At my current job I work on Node.js services written in TypeScript and running on AWS.
 Outside of coding I write documentation, plan work via JIRA tickets, or participate in totally useful meetings.
 
-My past experience includes developing .NET/C#/Python services and frontend React apps.
+My past experience includes developing C#/Python services and frontend React apps.
 In my personal projects I try to use Rust and C++.
 
 ## Online at
