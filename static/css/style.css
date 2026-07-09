@@ -1,9 +1,10 @@
 @font-face {
   font-display: swap;
-  font-family: 'M PLUS Rounded 1c';
+  font-family: "M PLUS Rounded 1c";
   font-style: normal;
   font-weight: 400;
-  src: url('../m-plus-rounded-1c-v20-cyrillic_latin-regular.woff2') format('woff2');
+  src: url("../m-plus-rounded-1c-v20-cyrillic_latin-regular.woff2")
+    format("woff2");
 }
 
 :root {
@@ -16,12 +17,12 @@
 
 ::-moz-selection {
   color: var(--bg-color);
-  background: var(--accent-color)
+  background: var(--accent-color);
 }
 
 ::selection {
   color: var(--bg-color);
-  background: var(--accent-color)
+  background: var(--accent-color);
 }
 
 html {
@@ -67,8 +68,8 @@ h1::before {
 
 a {
   text-decoration: underline;
-  padding: 0 .2rem 0 .2rem;
-  border-radius: .3rem;
+  padding: 0 0.2rem 0 0.2rem;
+  border-radius: 0.3rem;
   color: var(--accent-color);
 }
 
@@ -81,8 +82,8 @@ a:hover {
 
 ul {
   padding-inline-start: 20px;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 ol {
@@ -90,22 +91,22 @@ ol {
 }
 
 li {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 ul li::marker {
-  color: var(--meta-color)
+  color: var(--meta-color);
 }
 
 ul li:hover::marker {
   font-weight: 700;
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 blockquote {
-  border-left: .5rem solid var(--meta-color);
+  border-left: 0.5rem solid var(--meta-color);
   margin: 1rem;
-  padding: 0 0 0 1rem
+  padding: 0 0 0 1rem;
 }
 
 textarea {
@@ -113,20 +114,20 @@ textarea {
   outline: 0;
   resize: none;
   overflow: auto;
-  background-color: var(--bg-color)
+  background-color: var(--bg-color);
 }
 
 hr {
-  border: 1px dashed
+  border: 1px dashed;
 }
 
 img {
   max-width: 90%;
   height: auto;
-  margin: .2rem;
-  padding: .2rem;
-  border: dashed .2rem var(--meta-color);
-  border-radius: 15px
+  margin: 0.2rem;
+  padding: 0.2rem;
+  border: dashed 0.2rem var(--meta-color);
+  border-radius: 15px;
 }
 
 pre {
@@ -135,15 +136,15 @@ pre {
   overflow-x: auto;
   font-style: monospace;
   font-size: 0.9rem;
-  white-space: pre-wrap; 
+  white-space: pre-wrap;
   word-break: break-word;
 }
 
 p code,
 li code,
 div code {
-  padding: 0 .2rem 0 .2rem;
-  border-radius: .3rem;
+  padding: 0 0.2rem 0 0.2rem;
+  border-radius: 0.3rem;
   background-color: #ebebeb;
 }
 
@@ -166,39 +167,39 @@ table {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
-  line-height: 1.1
+  line-height: 1.1;
 }
 
 thead th:first-child {
-  width: 20%
+  width: 20%;
 }
 
 th {
-  font-weight: 400
+  font-weight: 400;
 }
 
 td,
 th {
-  padding: .5rem;
-  border: dashed .1rem var(--meta-color)
+  padding: 0.5rem;
+  border: dashed 0.1rem var(--meta-color);
 }
 
 footer {
   clear: both;
-  color: var(--footColor)
+  color: var(--footColor);
 }
 
 footer,
 td,
 th {
-  text-align: left
+  text-align: left;
 }
 
 .metadata,
 .theme-btn,
 hr,
 textarea {
-  color: var(--meta-color)
+  color: var(--meta-color);
 }
 
 .wrapper {
@@ -209,8 +210,8 @@ textarea {
 }
 
 .icons {
-  width: 2.0rem;
-  height: 2.0rem;
+  width: 2rem;
+  height: 2rem;
   aspect-ratio: 1/1;
   display: inline-block;
   vertical-align: middle;
@@ -227,18 +228,18 @@ textarea {
 .navbar {
   display: flex;
   flex-direction: row;
-  gap: .4rem;
+  gap: 0.4rem;
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
-  align-content: flex-end
+  align-content: flex-end;
 }
 
 .theme-btn {
   cursor: pointer;
   border: none;
   font-size: 1.8rem;
-  background-color: transparent
+  background-color: transparent;
 }
 
 .tags-data {
@@ -247,15 +248,15 @@ textarea {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-start;
-  align-content: flex-end
+  align-content: flex-end;
 }
 
 .tags-data .metadata {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .title-list li {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .footnote-definition {
@@ -283,12 +284,13 @@ textarea {
 }
 
 .published-on {
-    color: var(--dimmed-color)
+  font-size: 0.9rem;
+  color: var(--dimmed-color);
 }
 
 .social-link-btn {
-    line-height: 2rem;
-    display: inline-block;
+  line-height: 2rem;
+  display: inline-block;
 }
 
 /* Add Padding */

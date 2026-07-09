@@ -7,9 +7,9 @@ Today I've switched this website to [Zola](https://www.getzola.org). The previou
 
 {{ img(id="/img/old-website.png", style="width: 50%", alt="Old website") }}
 
-Let's see how it goes. Why Zola? No particular reason, I just like Rust and it makes Zola really fast.
+The only reason I chose Zola was Rust and, therefore, speed. Let's see how it goes.
 
 ~Anyway, this is the first and, considering my love for blog-posting on the Internet,
 probably the last post on this newly updated site.~
 
-Stay tuned! 🙈
+Stay tuned 🫡

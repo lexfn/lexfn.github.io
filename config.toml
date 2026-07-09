@@ -23,8 +23,4 @@ favicon = "/favicon.ico"
 default_theme = "light"
 list_pages = false
 
-header_nav = [
-    { url = "/", name = "home" },
-    { url = "/posts", name = "posts" },
-    { url = "/posts-ru", name = "posts (ru)" },
-]
+header_nav = [{ url = "/", name = "home" }, { url = "/posts", name = "posts" }]
