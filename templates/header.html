@@ -4,7 +4,7 @@
     {% if config.extra.header_nav %}
     <nav class="navbar">
         {% for nav_item in config.extra.header_nav %}
-        {% if not loop.first %}/{% endif %}
+        {% if not loop.first %}|{% endif %}
         <a href="{{ nav_item.url }}" class="main-menu-link">
             {{ nav_item.name }}
         </a>
