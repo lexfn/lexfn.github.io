@@ -4,9 +4,9 @@ title = "Home"
 
 # /home/alex
 
-Hi, I'm Aleksey. A full-time software engineer and a hobbyist game developer.
+Hi, I'm Aleksey. A software engineer and a hobbyist game developer.
 
-At my current job I work on Node.js services written in TypeScript and running on AWS.
+At my job I work on Node.js services written in TypeScript and running on AWS.
 Outside of coding I write documentation, plan work via JIRA tickets, or participate in totally useful meetings.
 
 My past experience includes developing C#/Python services and frontend React apps.
